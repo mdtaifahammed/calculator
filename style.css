@@ -1,0 +1,177 @@
+<<<<<<< HEAD
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    background-image: url("black-trianglify.jpg");
+    background-size: cover;
+}
+.calc {
+    height: 550px;
+    width: 350px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 1.5rem;
+    background-color: #0d0d0d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.display-screen {
+    height: 70px;
+    width: 330px;
+    border: none;
+    border-radius: 1.5rem;
+    position: relative;
+    top: 15px;
+    /* background: linear-gradient(45deg, #161616,#5f5f5f); */
+}
+.screen {
+    text-align: right;
+    position: absolute;
+    bottom: 5px;
+    right: 9px;
+    width: 280px;
+    height: auto;
+    color: white;
+    padding: 1rem;
+    font-size: 40px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+}
+.screen:active {
+    border: none;
+}
+.box {
+    position: relative;
+    right: 3.3px;
+    top: 2px;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    /* text-align: center; */
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    box-shadow: -5px -5px 10px rgb(53, 53, 53), 5px 5px 15px black;
+}
+.box:hover {
+    background-color: rgb(231, 231, 231);
+}
+.box:active {
+    border: none;
+    background-color: rgb(187, 187, 187);
+}
+
+
+.input-box-container {
+    
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    grid-template-rows:  65px 65px 65px 65px 65px;
+    gap: 1em;
+    grid-template-areas: 
+    "box-1 box-2 box-3 box-4"
+    "box-5 box-6 box-7 box-8"
+    "box-9 box-10 box-11 box-12"
+    "box-13 box-14 box-15 box-16"
+    "box-17 box-18 box-19 box-20";
+}
+=======
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    background-image: url("black-trianglify.jpg");
+    background-size: cover;
+}
+.calc {
+    height: 550px;
+    width: 350px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 1.5rem;
+    background-color: #0d0d0d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.display-screen {
+    height: 70px;
+    width: 330px;
+    border: none;
+    border-radius: 1.5rem;
+    position: relative;
+    top: 15px;
+    /* background: linear-gradient(45deg, #161616,#5f5f5f); */
+}
+.screen {
+    text-align: right;
+    position: absolute;
+    bottom: 5px;
+    right: 9px;
+    width: 280px;
+    height: auto;
+    color: white;
+    padding: 1rem;
+    font-size: 40px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+}
+.screen:active {
+    border: none;
+}
+.box {
+    position: relative;
+    right: 3.3px;
+    top: 2px;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    /* text-align: center; */
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    box-shadow: -5px -5px 10px rgb(53, 53, 53), 5px 5px 15px black;
+}
+.box:hover {
+    background-color: rgb(231, 231, 231);
+}
+.box:active {
+    border: none;
+    background-color: rgb(187, 187, 187);
+}
+
+
+.input-box-container {
+    
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    grid-template-rows:  65px 65px 65px 65px 65px;
+    gap: 1em;
+    grid-template-areas: 
+    "box-1 box-2 box-3 box-4"
+    "box-5 box-6 box-7 box-8"
+    "box-9 box-10 box-11 box-12"
+    "box-13 box-14 box-15 box-16"
+    "box-17 box-18 box-19 box-20";
+}
+>>>>>>> c9c76963d423df96653bf19782bdf153e2c056c2
